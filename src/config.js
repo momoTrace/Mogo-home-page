@@ -1,14 +1,14 @@
 const config = {
   //网页元数据
   metaData:{
-    title: 'Leleo的个人主页🎉',
-    description: '欢迎来到Leleo的奇妙世界！',
-    keywords: 'Leleo,leleo,个人主页,个人网站',
-    icon: '/favicon.ico'   //网页图标，支持外链
+    title: 'Mogo的个人主页2🎉',
+    description: '欢迎来到Mogo的奇妙世界！',
+    keywords: 'Mogo,momotrace,个人主页,个人网站',
+    icon: 'https://images.cnblogs.com/cnblogs_com/blogs/720650/galleries/2280396/o_240730030505_20240208122310312.jpg'   //网页图标，支持外链
   },
 
-  avatar: "/img/avatar.jpg", // 头像
-  welcometitle: "Hi, I'm Leleo", // 标题
+  avatar: "https://images.cnblogs.com/cnblogs_com/blogs/720650/galleries/2280396/o_240730030505_20240208122310312.jpg", // 头像
+  welcometitle: "Hi, I'm Mogo", // 标题
 
   // 颜色配置
   color: {
@@ -51,8 +51,8 @@ const config = {
 
   //社交按钮
   socialPlatformIcons: [
-    {icon:"mdi-github",link:"https://www.github.com/leleo886"},
-    {icon:"mdi-email",link:"mailto:leleo886@foxmail.com"},
+    {icon:"mdi-github",link:"https://www.github.com/momoTrace"},
+    {icon:"mdi-email",link:"mailto:trace@moxan.top"},
     {icon:"mdi-qqchat",link:"https://im.qq.com/"},
     {icon:"mdi-wechat",link:"https://wx.qq.com/"},
     {icon:"mdi-youtube",link:"https://www.youtube.com"},
@@ -71,7 +71,7 @@ const config = {
   musicPlayer:{
     server: 'netease',  //服务提供商 --网易云音乐
     type: 'playlist',   //歌单类型
-    id: '2028178887'  //歌单id ---> music.163.com/#/playlist?id=2028178887
+    id: '8170701761'  //歌单id ---> music.163.com/#/playlist?id=2028178887
   },
 
   //壁纸数据 -----可以将壁纸文件上传到uhsea.com获取网络直链。若想调用api，请前往脚本自行修改逻辑
@@ -143,7 +143,7 @@ const config = {
     {go:"🔍 前往",img:"/img/sunshine.jpg",title:"Project 8",subtitle:"8,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
   ],
   
-  statement: ["备案号：XXICP备123456789号","Copyright © 2025 Leleo"],
+  statement: ["备案号：蒙ICP备202419856号","Copyright © 2025 Momo Trace"],
 }
 
 export default config
